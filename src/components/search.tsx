@@ -26,7 +26,11 @@ export default function Search(): JSX.Element {
           <Link href="/page2">📃 Page 2</Link>
         </p>
       </header>
-
+      <div className="container">
+        <li>Open console</li>
+        <li>Enter something into the search box</li>
+        <li>Quickly switch to /page2</li>
+      </div>
       <div className="container">
         {/* <InstantSearch
           searchClient={searchClient}
